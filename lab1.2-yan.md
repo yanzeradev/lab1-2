@@ -14,26 +14,27 @@ As indicações **ref. X**, indicam de qual atividade do enunciado do laboratór
 
 ```
 No cenário criado foi usado duas estações com apenas um switch, uma largura de banda de 100 megabits por segundo (Mbps), e um
-atraso de 4 ms. 
-mininet@mininet-vm:~$ sudo mn --link tc,bw=200,delay=3ms
-*** Creating network
-*** Adding controller
-*** Adding hosts:
-h1 h2 
-*** Adding switches:
-s1 
-*** Adding links:
-(200.00Mbit 3ms delay) (200.00Mbit 3ms delay) (h1, s1) (200.00Mbit 3ms delay) (200.00Mbit 3ms delay) (h2, s1) 
-*** Configuring hosts
-h1 h2 
-*** Starting controller
-c0 
-*** Starting 1 switches
-s1 ...(200.00Mbit 3ms delay) (200.00Mbit 3ms delay) 
-*** Starting CLI:
-mininet> 
-
+atraso de 4 ms.
 ```
+        mininet@mininet-vm:~$ sudo mn --link tc,bw=200,delay=3ms
+        *** Creating network
+        *** Adding controller
+        *** Adding hosts:
+        h1 h2 
+        *** Adding switches:
+        s1 
+        *** Adding links:
+        (200.00Mbit 3ms delay) (200.00Mbit 3ms delay) (h1, s1) (200.00Mbit 3ms delay) (200.00Mbit 3ms delay) (h2, s1) 
+        *** Configuring hosts
+        h1 h2 
+        *** Starting controller
+        c0 
+        *** Starting 1 switches
+        s1 ...(200.00Mbit 3ms delay) (200.00Mbit 3ms delay) 
+        *** Starting CLI:
+        mininet> 
+
+
 
 2. (**ref. 3.1**) Identifique o cabeçalho recebido pelo a uma requisição simples HTTP.
 3. (**ref. 3.2**) Qual é o valor do cabeçalho `USER-AGENT`?
